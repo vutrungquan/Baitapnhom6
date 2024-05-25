@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>du an lon</title>
+    <link rel="stylesheet" href="./css/booking.css" />
+  </head>
+  <body class="project-about" style="background-color: rgb(230, 239, 241);">
+     <div class="project-child">
+      <div class="heading">
+        <div class="overlay">
+          <h1 class="heading-title">Booking</h1>
+          <div class="heading-title1"><div class="pic" style="color: #fea116">HOME / PAGE / </div> BOOKING</div>
+        </div>
+        <div class="img">
+          <img
+            src="/img/bg-hero.jpg"
+            alt="Your img"
+            width="1320px"
+            height="397px"
+          />
+        </div>
+        <div class="select">
+            <div class="restoren"></div>
+            <div class="home"><a href="/index.html">home</a></div>
+            <div class="about"><a href="/about.html">about</a></div>
+            <div class="service"><a href="/service.html">service</a></div>
+            <div class="menu"><a href="/menu.html">menu</a></div>
+            <div class="page"><a href="">page</a>
+              <div class="dropdown-menu">
+                <a href="/booking.html" class="dropdown-item">Booking</a>
+                <a href="" class="dropdown-item">Our Team</a>
+                <a href="" class="dropdown-item">Testimonial</a>
+              </div></div>
+            <div class="contact"><a href="">contact</a></div>
+            <div class="oder"><a href="/booking.html">ĐẶT BÀN</a></div>
+          </div>
+          <div class="container">
+            <div class="container1">
+                <div class="video">
+                    <a type="button" class="btn" href="https://www.youtube.com/embed/JvUJK-I8NWg">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="child">
+                    <h5 class="section_title">Reservation</h5>
+                    <h1 class="textwhite">Book A Table Online</h1>
+                    <form action="" class="book" id="bookingForm">
+                        <div class="row">
+                            <div class="col1">
+                                <div class="form_float">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">  
+                            </div>
+                            </div>
+                            <div class="col1">                                <div class="form_float">
+                                <input type="Email" class="form-control" id="Email" placeholder="Your Email">  
+                        </div></div>
+                            <div class="col1">                                <div class="form_float">
+                                <input type="datetime-local" class="form-control" id="Date" placeholder="Date & Time">  
+                        </div></div>
+                            <div class="col1">                               
+                                <div class="form_float">
+                                <select class="form-select" id="select1">
+                                    <option value="1">People 1</option>
+                                    <option value="2">People 2</option>
+                                    <option value="3">People 3</option>
+                                  </select>
+                        </div></div>
+                            <div class="col2">
+                                <div class="form_float">
+                                    <textarea class="form-control" placeholder="Special Request" id="message" style="height:100px"></textarea>
+                                </div>
+                            </div>
+                            <div class="col2">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="footer">
+        <div class="footer-child">
+        <div class="footer-nhahang">
+          <div class="padingrow2">
+            
+            <div class="footer-text">Nhà hàng</div>
+            <p>Về chúng tôi</p>
+            <p>Liên hệ</p>
+            <p>Đặt chỗ</p>
+            <p>Chính sách bảo mật</p>
+            <p>Điều khoản </p>
+          </div>
+        </div>
+        <div class="footer-lienhe">
+          <div class="padingrow2">
+            
+            <div class="footer-text">Liên hệ</div>
+            <div class="anh1"><p style="position: relative;">123 Xuân Thủy, Cầu Giấy,Hà Nội</p></div>
+            <div class="anh2"><p style="position: relative;"> +012 345 67890</p></div>
+            <div class="anh3"><p style="position: relative;">mail@domain.com</p></div>
+            <div class="anh4">
+              <div class="child1"><img src="img/Symbol (7).png"></div>
+              <div class="child1"><img src="img/Symbol (8).png"></div>
+              <div class="child1"><img src="img/Symbol (9).png"></div>
+              <div class="child1"><img src="img/Symbol (10).png"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-thoigian">
+          <div class="padingrow2">
+            <div class="footer-text">Thời gian</div>
+            <p>Monday - Saturday</p>
+            <p>09AM - 09PM</p>
+            <p>Sunday</p>
+            <p>10AM - 08PM</p>
+          </div>
+        </div>
+        <div class="footer-thongtin">
+          <div class="padingrow2">
+            <div class="footer-text">Thông tin</div>
+            <div class="footer-text1">
+             <p>
+              Đăng nhập/Đăng ký bằng tài khoản Gmail<br />
+              <div class="input">
+                <label for="email"></label>
+                <input
+                  class="input-thongtin"
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                />
+                <button type="button" class="signup">SignUp</button>
+              </div>
+            </p>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+      </div>       
+    </div>
+    <script src="./js/index.js"></script>
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(event) {
+            let isValid = true;
+
+            // Check all input fields
+            const inputs = document.querySelectorAll('.form-control');
+            inputs.forEach(input => {
+                if (!input.value) {
+                    isValid = false;
+                    input.style.borderColor = 'red';
+                } else {
+                    input.style.borderColor = '#ced4da';
+                }
+            });
+
+            // Check select field
+            const select = document.getElementById('select1');
+            if (!select.value) {
+                isValid = false;
+                select.style.borderColor = 'red';
+            } else {
+                select.style.borderColor = '#ced4da';
+            }
+
+            // Check textarea field
+            const textarea = document.getElementById('message');
+            if (!textarea.value) {
+                isValid = false;
+                textarea.style.borderColor = 'red';
+            } else {
+                textarea.style.borderColor = '#ced4da';
+            }
+
+            if (isValid) {
+                alert('Đặt bàn thành công!');
+                // Clear the form
+                document.getElementById('bookingForm').reset();
+            } else {
+                alert('Vui lòng điền đầy đủ các trường bắt buộc.');
+            }
+        });
+    </script>
+    </body>
+</html>
