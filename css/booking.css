@@ -128,7 +128,9 @@
     left: 915px;
     position: absolute;
   }
-  
+  .page a{
+    color: #fea116;;
+  }
   .page::after {
     content: "";
     position: absolute;
