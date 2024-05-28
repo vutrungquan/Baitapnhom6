@@ -76,3 +76,19 @@ window.addEventListener("scroll", function () {
     selectElement.classList.remove("transparent", "fade-in");
   }
 });
+$(document).ready(function(){
+  // Hiển thị nút khi cuộn xuống dưới 100px
+  $(window).scroll(function(){
+      if ($(this).scrollTop() > 200) {
+          $('.roll').fadeIn();
+      } else {
+          $('.roll').fadeOut();
+      }
+  });
+
+  // Cuộn lên đầu trang khi bấm nút
+  $('.roll').click(function(){
+      $('html, body').animate({scrollTop : 0}, 800);
+      return false;
+  });
+});
