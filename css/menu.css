@@ -461,7 +461,7 @@ p {
   position: absolute;
   width: 12.337px;
   height: 16px;
-  background-image: url(/img/Symbol\\(4\).png);
+  background-image: url(/img/Symbol\ \(4\).png);
   background-repeat: no-repeat;
 }
 .anh2::before {
@@ -469,7 +469,7 @@ p {
   position: absolute;
   width: 16.388px;
   height: 16px;
-  background-image: url(/img/Symbol\\(5\).png);
+  background-image: url(/img/Symbol\ \(5\).png);
   background-repeat: no-repeat;
 }
 .anh3::before {
@@ -477,7 +477,7 @@ p {
   position: absolute;
   width: 16.388px;
   height: 16px;
-  background-image: url(/img/Symbol\\(6\).png);
+  background-image: url(/img/Symbol\ \(6\).png);
   background-repeat: no-repeat;
 }
 .anh4 {

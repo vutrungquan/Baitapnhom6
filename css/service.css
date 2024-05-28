@@ -504,15 +504,14 @@ p {
   border: 1px solid #fea116;
 }
 
-.anh1 {
-}
+
 
 .anh1::before {
   content: "";
   position: absolute;
   width: 12.337px;
   height: 16px;
-  background-image: url(/img/Symbol\\(4\).png);
+  background-image: url(/img/Symbol\ \(4\).png);
   background-repeat: no-repeat;
 }
 
@@ -521,7 +520,7 @@ p {
   position: absolute;
   width: 16.388px;
   height: 16px;
-  background-image: url(/img/Symbol\\(5\).png);
+  background-image: url(/img/Symbol\ \(5\).png);
   background-repeat: no-repeat;
 }
 
@@ -530,7 +529,7 @@ p {
   position: absolute;
   width: 16.388px;
   height: 16px;
-  background-image: url(/img/Symbol\\(6\).png);
+  background-image: url(/img/Symbol\ \(6\).png);
   background-repeat: no-repeat;
 }
 
