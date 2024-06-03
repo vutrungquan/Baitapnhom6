@@ -541,7 +541,17 @@
     margin-inline-end: 0px;
     margin-left: 22px;
   }
-  
+  .arrow::before{
+    content: "";
+    position: absolute;
+    width: 12.337px;
+    height: 16px;
+    background-image: url(/img/Symbol20.png);
+    background-repeat: no-repeat;
+    font-weight: 900;
+    right: 185px;
+   top: 5px;
+  }
   .input {
     max-width: 200px;
     height: 58px;
