@@ -555,3 +555,24 @@ input {
   position: absolute;
   color: #fff;
 }
+.roll{
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  border-radius: 2px;
+  position: fixed;
+  right: 140px;
+  bottom: 45px;
+  z-index: 99;
+  background-color: #FEA116;
+  border: 1px solid #FEA116;
+
+}
+.roll:hover{
+  cursor: pointer;
+  background-color: #eeba41;
+}
