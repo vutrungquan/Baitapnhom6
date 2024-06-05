@@ -1001,7 +1001,7 @@ button:hover {
   position: absolute;
 }
 .dot-2 {
-  left: 610px;
+  left: 613px;
   width: 15px;
   height: 15px;
   top: 366px;
@@ -1175,7 +1175,7 @@ button:hover {
   position: absolute;
   color: #fff;
 }
-.roll{
+.roll {
   width: 48px;
   height: 48px;
   padding: 0;
@@ -1188,11 +1188,10 @@ button:hover {
   right: 140px;
   bottom: 45px;
   z-index: 99;
-  background-color: #FEA116;
-  border: 1px solid #FEA116;
-
+  background-color: #fea116;
+  border: 1px solid #fea116;
 }
-.roll:hover{
+.roll:hover {
   cursor: pointer;
   background-color: #eeba41;
 }
